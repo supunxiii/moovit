@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteDate">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginBottom="202dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Time Period" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginBottom="287dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Select Route" />
+
+    <Spinner
+        android:id="@+id/spinnerDura"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/spinner_border" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="306dp"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Proceed"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="637dp"
+        android:src="@drawable/moovit_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="199dp"
+        android:fontFamily="@font/courgette"
+        android:text="Where to? When?"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <Switch
+        android:id="@+id/nightDay"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_toStartOf="@id/nightDay"
+        android:src="@drawable/day_sun_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/night_moon_icon" />
+
+
+    <Button
+        android:id="@+id/btnTryAgain"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Back to Passes"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <Spinner
+        android:id="@+id/spinnerRoute"
+        android:layout_width="412dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="229dp"
+        android:background="@drawable/spinner_border" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="323dp"
+        app:srcCompat="@drawable/path_road_icon" />
+
+</RelativeLayout>

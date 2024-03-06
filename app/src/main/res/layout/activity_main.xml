@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnOldPasses"
+        android:layout_width="222dp"
+        android:layout_height="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Your Passes"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="215dp"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="81dp"
+        android:src="@drawable/moovit_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="@font/courgette"
+        android:text="Bus Passes"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <Switch
+        android:id="@+id/nightDay"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="52dp"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_toStartOf="@id/nightDay"
+        android:src="@drawable/day_sun_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/night_moon_icon" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="SIGN OUT"
+        android:textSize="19dp"
+        android:textColor="@color/black"
+        android:onClick="logOut"/>
+
+    <Button
+        android:id="@+id/btnNewPasses"
+        android:layout_width="222dp"
+        android:layout_height="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="303dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="New Pass"
+        android:textSize="25dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/btnProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/profile_icon" />
+
+</RelativeLayout>

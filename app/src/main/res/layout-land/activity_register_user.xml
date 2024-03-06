@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="13dp" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingStart="13dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="13dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="147dp"
+        android:src="@drawable/moovit_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/courgette"
+        android:text="Create Account"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <Switch
+        android:id="@+id/nightDay"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_toStartOf="@id/nightDay"
+        android:src="@drawable/day_sun_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/night_moon_icon" />
+
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Username"
+        android:inputType="text"
+        android:paddingStart="13dp" />
+
+    <Button
+        android:id="@+id/btnTryAgain"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Sign up"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="459dp"
+        android:layout_marginBottom="156dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Registration Complete? Go to"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtForgotPwd"
+        android:layout_width="77dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="515dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginBottom="124dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Sign in"
+        android:textColor="#42B34D"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginBottom="47dp"
+        android:visibility="invisible" />
+</RelativeLayout>

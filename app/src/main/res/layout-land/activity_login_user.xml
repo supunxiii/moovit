@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginUser">
+
+
+
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="269dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="232dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="13dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="269dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="232dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="13dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="81dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="637dp"
+        android:src="@drawable/moovit_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="289dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="212dp"
+        android:fontFamily="@font/courgette"
+        android:text="Hi, Welcome back!"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <Switch
+        android:id="@+id/nightDay"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_toStartOf="@id/nightDay"
+        android:src="@drawable/day_sun_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/night_moon_icon" />
+
+    <Button
+        android:id="@+id/btnTryAgain"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Sign in"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Don't have an account yet?" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="62dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="340dp"
+        app:srcCompat="@drawable/home_user_icon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/sign_in_icon" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginBottom="14dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtRegisterUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="29dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Sign Up"
+        android:textColor="#42B34D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtForgotPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="127dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Forgot password?"
+        android:textColor="#42B34D"
+        android:textSize="14sp" />
+
+</RelativeLayout>

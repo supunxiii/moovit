@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsConditions">
+
+
+  <Button
+      android:id="@+id/btnNotGood"
+      android:layout_width="231dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="84dp"
+      android:layout_marginBottom="71dp"
+      android:background="@drawable/moovit_red_button"
+      android:fontFamily="@font/fredoka_one"
+      android:text="I don't like this at all"
+      android:textColor="#FFFFFF" />
+
+  <ImageView
+      android:id="@+id/logo"
+      android:layout_width="173dp"
+      android:layout_height="65dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="63dp"
+      android:layout_marginEnd="106dp"
+      android:src="@drawable/moovit_logo" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="315dp"
+      android:layout_height="51dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="142dp"
+      android:layout_marginEnd="28dp"
+      android:fontFamily="@font/courgette"
+      android:text="Terms and Conditions"
+      android:textColor="@color/black"
+      android:textSize="32sp" />
+
+  <Button
+      android:id="@+id/btnTryAgain"
+      android:layout_width="230dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="84dp"
+      android:layout_marginBottom="133dp"
+      android:background="@drawable/moovit_button"
+      android:fontFamily="@font/fredoka_one"
+      android:text="Looks all good to me"
+      android:textColor="#FFFFFF" />
+
+  <TextView
+      android:id="@+id/textView16"
+      android:layout_width="377dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="205dp"
+      android:text="@string/terms_1" />
+
+  <TextView
+      android:id="@+id/textView17"
+      android:layout_width="380dp"
+      android:layout_height="124dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="11dp"
+      android:layout_marginBottom="218dp"
+      android:text="@string/terms_2" />
+
+</RelativeLayout>

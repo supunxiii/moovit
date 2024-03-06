@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+
+
+    <TextView
+        android:id="@+id/txtViewTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="449dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginBottom="118dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="*View Terms and Conditions"
+        android:textColor="#42B34D"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtDuration"
+        android:layout_width="168dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="530dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:gravity="center_vertical|start"
+        android:hint="Duration"
+        android:paddingStart="13dp" />
+
+    <TextView
+        android:id="@+id/txtRoute"
+        android:layout_width="168dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="349dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:gravity="center_vertical|start"
+        android:hint="Route"
+        android:paddingStart="13dp" />
+
+    <EditText
+        android:id="@+id/txtCVV"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="282dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:gravity="center_vertical|start"
+        android:hint="CVV"
+        android:paddingStart="13dp" />
+
+    <ImageView
+        android:id="@+id/btnProfilePayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="406dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/button_disabled_background"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Confirm and Pay"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="405dp"
+        android:layout_marginBottom="257dp"
+        android:background="@drawable/moovit_button"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Agree to Terms and Conditions*"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/txtValidThru"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:gravity="center_vertical|start"
+        android:hint="Valid Thru: MM/YY"
+        android:paddingStart="13dp" />
+
+    <EditText
+        android:id="@+id/txtNIC"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:gravity="center_vertical|start"
+        android:hint="NIC"
+        android:paddingStart="13dp" />
+
+    <Switch
+        android:id="@+id/nightDay"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="51dp"
+        android:textSize="14sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_toStartOf="@id/nightDay"
+        android:src="@drawable/day_sun_icon" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@id/nightDay"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/night_moon_icon" />
+
+
+    <EditText
+        android:id="@+id/txtCardNumber"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="143dp"
+        android:layout_marginEnd="404dp"
+        android:background="@drawable/edittext_rounded_background"
+        android:ems="10"
+        android:gravity="center_vertical|start"
+        android:hint="Card Number"
+        android:paddingStart="13dp" />
+
+</RelativeLayout>
