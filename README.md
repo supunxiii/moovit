@@ -2,8 +2,6 @@
 
 Moovit is an Android bus pass booking application developed as part of COMP50011-K-I - Mobile Application Development I. The app provides user registration and sign-in, profile management, route and duration selection, payment entry, QR/pass download, and offline fallback handling, with a light and dark theme for accessibility and user preference.
 
-Designed and developed by Supun Wijesooriya.
-
 ![Java](https://img.shields.io/badge/Java-8-007396?style=flat-square&logo=java&logoColor=white)
 ![Android](https://img.shields.io/badge/Android%20SDK-33-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![Firebase%20Auth](https://img.shields.io/badge/Firebase%20Auth-22.0.0-FFCA28?style=flat-square&logo=firebase&logoColor=black)
