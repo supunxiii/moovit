@@ -118,7 +118,7 @@ moovit/
 
 This project was developed by:
 
-- **Supun Wijesooriya** - Mobile Application Developer
+- **Supun Wijesooriya** - Developer
 
 ## Contributing
 
