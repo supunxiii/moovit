@@ -163,4 +163,4 @@ For any enquiries or feedback, please contact the developer:
 
 ---
 
-_Designed and developed by Supun Wijesooriya_
+_Designed and developed in June 2023_
